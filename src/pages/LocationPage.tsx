@@ -1,12 +1,12 @@
-import { useLocation, Navigate } from "react-router-dom";
+import { useLocation as useRouterLocation, Navigate } from "react-router-dom";
 import { useEffect } from "react";
 import { MapPin, Phone, Clock, MessageCircle, Navigation } from "lucide-react";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { locations } from "@/data/locations";
-import { locations } from "@/data/locations";
 
 const LocationPage = () => {
-  const { slug } = useParams<{ slug: string }>();
+  const routerLocation = useRouterLocation();
+  const slug = routerLocation.pathname.slice(1);
   const location = locations.find((l) => l.slug === slug);
 
   useEffect(() => {
