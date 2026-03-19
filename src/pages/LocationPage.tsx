@@ -1,7 +1,8 @@
-import { useParams, Navigate } from "react-router-dom";
+import { useLocation, Navigate } from "react-router-dom";
 import { useEffect } from "react";
 import { MapPin, Phone, Clock, MessageCircle, Navigation } from "lucide-react";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import { locations } from "@/data/locations";
 import { locations } from "@/data/locations";
 
 const LocationPage = () => {
