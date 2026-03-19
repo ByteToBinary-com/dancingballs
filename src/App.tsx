@@ -23,8 +23,9 @@ const App = () => (
         <main>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/:slug" element={<LocationPage />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/indirapuram-pool-club" element={<LocationPage />} />
+            <Route path="/saharanpur-snooker-club" element={<LocationPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
