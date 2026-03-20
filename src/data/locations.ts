@@ -32,8 +32,8 @@ export const locations: ClubLocation[] = [
     whatsapp: "918920393482",
     mapEmbedUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.5!2d77.37!3d28.63!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM4JzAuMCJOIDc3wrAyMicwLjAiRQ!5e0!3m2!1sen!2sin!4v1",
-    lat: 28.6353,
-    lng: 77.3707,
+    lat: 28.64825850855971,
+    lng: 77.3685971,
     hours: [
       { day: "Monday – Friday", time: "11:00 AM – 12:00 AM" },
       { day: "Saturday – Sunday", time: "10:00 AM – 1:00 AM" },
