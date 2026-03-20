@@ -7,9 +7,10 @@ const Footer = () => (
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <h3 className="font-display text-lg font-bold text-primary neon-text mb-4">DANCINGBALLS</h3>
+          <h3 className="font-display text-lg font-bold text-primary neon-text mb-4">DANCING BALLS</h3>
           <p className="text-muted-foreground text-sm leading-relaxed">
-            Premium Pool & Snooker Club experience across two locations. Professional tables, vibrant atmosphere, unforgettable games.
+            Premium Pool & Snooker Club experience across two locations. Professional tables, vibrant atmosphere,
+            unforgettable games.
           </p>
         </div>
         {locations.map((loc) => (
@@ -18,11 +19,15 @@ const Footer = () => (
             <address className="not-italic text-sm text-muted-foreground space-y-2">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary shrink-0" />
-                <span>{loc.address}, {loc.city}, {loc.state} {loc.postalCode}</span>
+                <span>
+                  {loc.address}, {loc.city}, {loc.state} {loc.postalCode}
+                </span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                <a href={`tel:${loc.phone}`} className="hover:text-primary transition-colors">{loc.phone}</a>
+                <a href={`tel:${loc.phone}`} className="hover:text-primary transition-colors">
+                  {loc.phone}
+                </a>
               </div>
             </address>
             <Link to={`/${loc.slug}`} className="inline-block mt-3 text-xs text-primary hover:underline">
