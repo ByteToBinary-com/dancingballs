@@ -18,7 +18,7 @@ const Index = () => (
       <div className="container mx-auto px-4 text-center relative z-10 pt-16">
         <p className="text-primary font-display text-sm tracking-[0.3em] uppercase mb-4 animate-pulse-neon">Premium Pool & Snooker</p>
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-6">
-          <span className="text-foreground">DANCING</span>
+          <span className="text-foreground">DANCING</span>{" "}
           <span className="text-primary neon-text">BALLS</span>
         </h1>
         <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
