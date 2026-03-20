@@ -24,7 +24,7 @@ const Navbar = () => {
         <Link
           to="/"
           className="font-display text-xl font-bold tracking-wider text-primary neon-text"
-          aria-label="DancingBalls Home"
+          aria-label="Dancing Balls Home"
         >
           DANCING BALLS
         </Link>
