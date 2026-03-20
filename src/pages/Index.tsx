@@ -87,7 +87,7 @@ const Index = () => (
       <div className="container mx-auto px-4 text-center relative z-10">
         <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">Ready to Play?</h2>
         <p className="text-muted-foreground mb-8 max-w-lg mx-auto">
-          Grab your cue and head to the nearest DancingBalls club. Walk in or call to book your table.
+          Grab your cue and head to the nearest Dancing Balls club. Walk in or call to book your table.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href={`tel:${locations[0].phone}`} className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-xl font-bold hover:opacity-90 transition-opacity">

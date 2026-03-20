@@ -29,7 +29,7 @@ const LocationPage = () => {
           backgroundImage: "radial-gradient(circle at 50% 80%, hsl(120 100% 62% / 0.2) 0%, transparent 50%)",
         }} />
         <div className="container mx-auto px-4 relative z-10">
-          <p className="text-primary font-display text-xs tracking-[0.3em] uppercase mb-3">DancingBalls</p>
+          <p className="text-primary font-display text-xs tracking-[0.3em] uppercase mb-3">Dancing Balls</p>
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-black mb-4">
             {location.shortName} <span className="text-primary neon-text">Club</span>
           </h1>
