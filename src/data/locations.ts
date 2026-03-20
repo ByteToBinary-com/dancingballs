@@ -40,7 +40,7 @@ export const locations: ClubLocation[] = [
     ],
     description:
       "Experience premium pool and snooker at our Indirapuram club. Featuring professional-grade tables, ambient lighting, and a vibrant atmosphere.",
-    metaTitle: "Pool Club in Indirapuram | DancingBalls Snooker & Billiards",
+    metaTitle: "Pool Club in Indirapuram | Dancing Balls Snooker & Billiards",
     metaDescription:
       "Visit Dancing Balls Pool & Snooker Club in Indirapuram, Ghaziabad. Professional tables, tournaments, and a premium gaming lounge experience. Call now!",
   },
