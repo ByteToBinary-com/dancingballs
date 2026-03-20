@@ -57,8 +57,8 @@ export const locations: ClubLocation[] = [
     whatsapp: "916395720072",
     mapEmbedUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.050736925904!2d77.54328!3d29.9492192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ca164f1fe7fec5b%3A0xc2300fae152254f0!2sDancing%20balls%20-%20Snooker%20%26%20Pool%20club!5e0!3m2!1sen!2sin!4v1773981695614!5m2!1sen!2sin",
-    lat: 29.949493437380006,
-    lng: 77.5433014576715,
+    lat: 29.94923095416618,
+    lng: 77.54327973254547,
     hours: [
       { day: "Monday – Friday", time: "12:00 PM – 11:00 PM" },
       { day: "Saturday – Sunday", time: "10:00 AM – 12:00 AM" },
