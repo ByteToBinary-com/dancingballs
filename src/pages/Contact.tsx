@@ -5,9 +5,9 @@ import { locations } from "@/data/locations";
 
 const Contact = () => {
   useEffect(() => {
-    document.title = "Contact DancingBalls – Pool & Snooker Club | Indirapuram & Saharanpur";
+    document.title = "Contact Dancing Balls – Pool & Snooker Club | Indirapuram & Saharanpur";
     const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.setAttribute("content", "Get in touch with DancingBalls Pool & Snooker Club. Find our addresses, phone numbers, and directions for Indirapuram and Saharanpur locations.");
+    if (desc) desc.setAttribute("content", "Get in touch with Dancing Balls Pool & Snooker Club. Find our addresses, phone numbers, and directions for Indirapuram and Saharanpur locations.");
   }, []);
 
   return (

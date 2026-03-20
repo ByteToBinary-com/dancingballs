@@ -45,7 +45,7 @@ const Navbar = () => {
           <a
             href={`tel:${locations[0].phone}`}
             className="flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
-            aria-label="Call DancingBalls"
+            aria-label="Call Dancing Balls"
           >
             <Phone className="w-4 h-4" />
             Call Now

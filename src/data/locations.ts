@@ -65,7 +65,7 @@ export const locations: ClubLocation[] = [
     ],
     description:
       "Our Saharanpur branch offers a world-class snooker and pool experience. Professional equipment, friendly vibes, and competitive rates.",
-    metaTitle: "Snooker Club in Saharanpur | DancingBalls Pool & Billiards",
+    metaTitle: "Snooker Club in Saharanpur | Dancing Balls Pool & Billiards",
     metaDescription:
       "Visit Dancing Balls Snooker & Pool Club in Saharanpur. Premium tables, great ambiance, and exciting tournaments. Call to book your table!",
   },
