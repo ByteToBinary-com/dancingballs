@@ -15,10 +15,18 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border" role="navigation" aria-label="Main navigation">
+    <nav
+      className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border"
+      role="navigation"
+      aria-label="Main navigation"
+    >
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
-        <Link to="/" className="font-display text-xl font-bold tracking-wider text-primary neon-text" aria-label="DancingBalls Home">
-          DANCINGBALLS
+        <Link
+          to="/"
+          className="font-display text-xl font-bold tracking-wider text-primary neon-text"
+          aria-label="DancingBalls Home"
+        >
+          DANCING BALLS
         </Link>
 
         {/* Desktop */}
