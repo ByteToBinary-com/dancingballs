@@ -24,7 +24,7 @@ export const locations: ClubLocation[] = [
     name: "Dancing Balls Indirapuram",
     shortName: "Indirapuram",
     slug: "indirapuram-pool-club",
-    address: "Shop No. 12, Ahinsa Khand-2, Indirapuram",
+    address: "346, 2nd floor, Shakti khand 3, Indirapuram",
     city: "Ghaziabad",
     state: "Uttar Pradesh",
     postalCode: "201014",
