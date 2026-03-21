@@ -1,26 +1,20 @@
-import { useLocation as useRouterLocation, Navigate } from "react-router-dom";
-import { useEffect } from "react";
+import { Navigate, useLocation as useRouterLocation } from "react-router-dom";
 import { MapPin, Phone, Clock, MessageCircle, Navigation } from "lucide-react";
+import Seo from "@/components/Seo";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { locations } from "@/data/locations";
+import { getPageSeo } from "@/seo";
 
 const LocationPage = () => {
   const routerLocation = useRouterLocation();
   const slug = routerLocation.pathname.slice(1);
   const location = locations.find((l) => l.slug === slug);
 
-  useEffect(() => {
-    if (location) {
-      document.title = location.metaTitle;
-      const desc = document.querySelector('meta[name="description"]');
-      if (desc) desc.setAttribute("content", location.metaDescription);
-    }
-  }, [location]);
-
   if (!location) return <Navigate to="/" replace />;
 
   return (
     <>
+      <Seo seo={getPageSeo(routerLocation.pathname)} />
       <SchemaMarkup location={location} />
 
       {/* Hero */}

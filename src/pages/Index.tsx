@@ -3,9 +3,13 @@ import { MapPin, Phone, Trophy, Users, Star } from "lucide-react";
 import LocationCard from "@/components/LocationCard";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { locations } from "@/data/locations";
+import Seo from "@/components/Seo";
+import { getPageSeo } from "@/seo";
 
 const Index = () => (
   <>
+    <Seo seo={getPageSeo("/")} />
+
     {locations.map((loc) => (
       <SchemaMarkup key={loc.id} location={loc} />
     ))}
