@@ -1,17 +1,14 @@
-import { useEffect } from "react";
 import { MapPin, Phone, MessageCircle, Navigation, Clock } from "lucide-react";
+import Seo from "@/components/Seo";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { locations } from "@/data/locations";
+import { getPageSeo } from "@/seo";
 
 const Contact = () => {
-  useEffect(() => {
-    document.title = "Contact Dancing Balls – Pool & Snooker Club | Indirapuram & Saharanpur";
-    const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.setAttribute("content", "Get in touch with Dancing Balls Pool & Snooker Club. Find our addresses, phone numbers, and directions for Indirapuram and Saharanpur locations.");
-  }, []);
-
   return (
     <>
+      <Seo seo={getPageSeo("/contact")} />
+
       {locations.map((loc) => (
         <SchemaMarkup key={loc.id} location={loc} />
       ))}
