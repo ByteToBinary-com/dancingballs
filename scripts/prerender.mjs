@@ -77,12 +77,12 @@ for (const routePath of prerenderRoutes) {
   );
   html = replaceTag(
     html,
-    /<meta property="og:url" content=".*?">/s,
+    /<meta property="og:url" content=".*?"\s*\/?>/s,
     `<meta property="og:url" content="${escapeHtml(seo.canonicalUrl)}">`,
   );
   html = replaceTag(
     html,
-    /<link rel="canonical" href=".*?">/s,
+    /<link rel="canonical" href=".*?"\s*\/?>/s,
     `<link rel="canonical" href="${escapeHtml(seo.canonicalUrl)}">`,
   );
 

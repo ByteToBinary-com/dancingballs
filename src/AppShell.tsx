@@ -1,4 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
@@ -12,32 +13,34 @@ import LocationPage from "./pages/LocationPage";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
-const queryClient = new QueryClient();
+const AppShell = () => {
+  const [queryClient] = useState(() => new QueryClient());
 
-const AppShell = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <Navbar />
-      <main>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/contact" element={<Contact />} />
-          {locations.map((location) => (
-            <Route
-              key={location.slug}
-              path={`/${location.slug}`}
-              element={<LocationPage />}
-            />
-          ))}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </main>
-      <Footer />
-      <StickyCallBar />
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+  return (
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <Navbar />
+        <main>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/contact" element={<Contact />} />
+            {locations.map((location) => (
+              <Route
+                key={location.slug}
+                path={`/${location.slug}`}
+                element={<LocationPage />}
+              />
+            ))}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
+        <Footer />
+        <StickyCallBar />
+      </TooltipProvider>
+    </QueryClientProvider>
+  );
+};
 
 export default AppShell;

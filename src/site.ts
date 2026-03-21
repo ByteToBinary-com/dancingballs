@@ -1,3 +1,2 @@
 export const SITE_URL = "https://dancingballs.com";
-export const DEFAULT_OG_IMAGE =
-  "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/0397085c-9cab-4232-9da3-4d8ac1f1bccb?Expires=1774074142&GoogleAccessId=go-api-on-aws%40gpt-engineer-390607.iam.gserviceaccount.com&Signature=O5Rzc%2BVvu5L1htUHoIrjMBMxGqJVMXgHGiBJ5tkYyey3Xdkjxv2PxfpJiUUo%2FjkyaCpXb6vF9Fcd%2F6%2B98L3h99NNx3Ot%2Bk7QVkXAsNVdRgIaEL2TEeEbkx6ZGWx35CodDr6VoFoxAG1zIAkHftamaAESGYZyW67HCcS9kPCCQZCnPyzzdmWkWw854WHtvAV7yK3TZ1EPXxJtUCHXkVaiE08fx9f4F3fiS7Pw5g0PaxLGOUppXz2GE%2FWkU3zp2soJkQsHf3cW2i%2FXY2Vmg8zQxO69v0Lcx2AfmGkrel%2BPkQwJOArC43O56N9FQ6D%2BUACTqAN%2FHZAJX%2FHNen%2BG5TOipQ%3D%3D";
+export const DEFAULT_OG_IMAGE = "https://dancingballs.com/og-image.png";
