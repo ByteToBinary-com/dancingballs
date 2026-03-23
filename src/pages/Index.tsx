@@ -16,10 +16,9 @@ const Index = () => (
     ))}
 
     {/* Hero */}
-    <section className="relative min-h-[90vh] flex items-center justify-center gradient-dark overflow-hidden">
-      <div className="absolute inset-0 opacity-20" style={{
-        backgroundImage: "radial-gradient(circle at 30% 50%, hsl(120 100% 62% / 0.15) 0%, transparent 50%), radial-gradient(circle at 70% 30%, hsl(180 100% 50% / 0.1) 0%, transparent 50%)",
-      }} />
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+      <img src={snookerBg} alt="Top view of a snooker table with red cloth and balls" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+      <div className="absolute inset-0 bg-background/75" />
       <div className="container mx-auto px-4 text-center relative z-10 pt-16">
         <p className="text-primary font-display text-sm tracking-[0.3em] uppercase mb-4 animate-pulse-neon">Premium Pool & Snooker</p>
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-6">
