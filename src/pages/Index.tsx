@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Trophy, Users, Star } from "lucide-react";
+import snookerBg from "@/assets/snooker-table-topview.jpg";
 import LocationCard from "@/components/LocationCard";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { locations } from "@/data/locations";
